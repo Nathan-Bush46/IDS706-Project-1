@@ -25,7 +25,7 @@
 
 2. In vs code add Dev Containers and Docker extensions 
 
-3. clone repo, restart vs code, and open repo in vs code. 
+3. clone repo, restart vs code, and open repo in vs code.
 
 4. should see a pop up to (re)open in devcontainer. Click it and let it run. It takes a bit of time for the first run but is much faster after that. Done.
 
