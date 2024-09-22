@@ -10,6 +10,10 @@
 
 [![Docker Image CI Lint](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/lint.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/lint.yml)
 
+## Demo Video
+
+https://youtu.be/4M5TUXnW9u8
+
 ## Quick Explanation
 
 * Creates descriptive statistics and outputs them as a pdf and image into [`data folder`](./src/main_workspace/outputs) using [`python script`](./src/main_workspace/stats_pdf.py)
