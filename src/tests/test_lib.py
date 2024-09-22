@@ -6,8 +6,8 @@ Test goes here
 import importlib.util
 import sys
 import pandas as pd
-#from src.main_workspace.lib import calculate
 
+# from src.main_workspace.lib import calculate
 
 
 def is_calc_valid(stat):
@@ -25,6 +25,7 @@ def is_calc_valid(stat):
             return False
     return True
 
+
 def test_lib():
     # load lib dynamically
     spec = importlib.util.spec_from_file_location("lib", "src/main_workspace/lib.py")
@@ -37,6 +38,7 @@ def test_lib():
     stat = libary.calculate("src/main_workspace/data/hw1_q3_test_data.csv")
     assert stat is not None
     assert is_calc_valid(stat)
+
 
 # if __name__ == "__main__":
 #     test_lib()
