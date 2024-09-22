@@ -1,11 +1,23 @@
 # IDS-Descriptive-Statistics 
 
-[![Docker Image CI](https://github.com/Nathan-Bush46/IDS706-Descriptive-Statistics/actions/workflows/docker-image.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Descriptive-Statistics/actions/workflows/docker-image.yml)
+[![Docker Image CI Main](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/main.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/main.yml)
+
+[![Docker Image CI Test](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/test.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/test.yml)
+
+[![Docker Image CI Format](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/format.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/format.yml)
+
+[![Docker Image CI Install](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/install.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/install.yml)
+
+[![Docker Image CI Lint](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/lint.yml/badge.svg)](https://github.com/Nathan-Bush46/IDS706-Project-1/actions/workflows/lint.yml)
 
 ## Quick Explanation
 
 * Creates descriptive statistics and outputs them as a pdf and image into [`data folder`](./src/main_workspace/outputs) using [`python script`](./src/main_workspace/stats_pdf.py)
 * CI/CD pipline also auto runs script to update [`pdf and image`](./src/main_workspace/outputs)
+
+* jupyter Notebook with: 
+    * Cells that perform descriptive statistics using Polars or Panda.
+    * Tested by using nbval plugin for pytest
 
 ## Set up instructions using VS code + Docker: 
 ### Docker
