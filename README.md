@@ -37,7 +37,9 @@ If you choose not to run docker, use a python virtual environment to prevent con
 ### makefile  
 * install
 
-* test ex: *makefile test* to test all "\*test\*.py" files in src/test/ 
+* testing:
+
+    tests all "\*test\*.py" files in src/test/ using py.test then tests all files using py.test --nbval-lax (-lax used as pdf generation has time stamps)
 
 * lint
 
